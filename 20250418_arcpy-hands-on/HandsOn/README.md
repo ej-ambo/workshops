@@ -41,7 +41,7 @@ arcpy.management.Delete(layer)
 
 実行が完了すると下記のような結果になります。
 
-![alt text](image.png)
+![alt text](./img/image.png)
 
 上記のコードではまず、import arcpy により ArcPy サイトパッケージをインポートします。これにより ArcGIS Pro が持つ機能を使用できるようになります。
 
@@ -64,7 +64,7 @@ CSV から緯度経度を参照し、「放置車両」という名前で、ポ�
 
     属性テーブルが開き、各駅名と各駅ごとの放置車両台数 (bicycle, scooters, motorcycle) が含まれていることが確認できます。
 
-![alt text](image-1.png)
+![alt text](./img/image-1.png)
 
 2. 下記のコードを Python ウィンドウに入力し、Enter キーを 2 回押下して実行します。
 
@@ -91,7 +91,7 @@ with arcpy.da.UpdateCursor("放置車両", fields) as cursor:
 
     tolal フィールドに、各項目の合計値が追加されていることが確認できます。
 
-![alt text](image-2.png)
+![alt text](./img/image-2.png)
 
 ## 演習 3 : シンボルの更新
 
@@ -123,12 +123,12 @@ for lyr in lyrs:
 上記のコードでは、[Symbology クラス](https://pro.arcgis.com/ja/pro-app/latest/arcpy/mapping/symbology-class.htm) を使用して演習 2 で追加した total フィールドの属性値に応じてシンボルを設定しています。
 今回は等級色 (GraduatedColorsRenderer) を使用し、total フィールドに対して、5 段階の等比間隔 (Quantile) で分類をしています。
 
-![alt text](image-3.png)
+![alt text](./img/image-3.png)
 
 ##### 補足
 ArcPy のサンプル コードや Web ヘルプを見る時に ArcGIS Pro を参考にできる場合があります。演習 3 の「GraduatedColorsRenderer」の場合では、リファレンスの各プロパティがシンボル設定画面のある項目に対応しているという見方ができます。
 
-![alt text](image-4.png)
+![alt text](./img/image-4.png)
 
 
 ## 演習 4 : マップを PDF にエクスポート
@@ -139,7 +139,7 @@ ArcPy のサンプル コードや Web ヘルプを見る時に ArcGIS Pro を�
     
    今回はあらかじめレイアウトを作成しています。このレイアウトを使用して PDF にエクスポートします。
     
-![alt text](レイアウト画面.png)
+![alt text](./img/レイアウト画面.png)
 
 2. 下記のコードを Python ウィンドウに入力し、Enter キーを 2 回押下して実行します。データの配置場所に応じて出力先のパスを書き換えてください。
 
@@ -158,7 +158,7 @@ layout.exportToPDF(r"C:\data\output\Sample.pdf")
 
 3. 出力先に Sample.pdf がエクスポートされたことを確認します。
 
-![alt text](PDFにエクスポート.png)
+![alt text](./img/PDFにエクスポート.png)
 
 
 ## オプション　マップ シリーズの利用
@@ -174,7 +174,7 @@ layout.exportToPDF(r"C:\data\output\Sample.pdf")
 
 1. 「オプション」レイアウトを開き、コンテンツ ウィンドウから マップ シリーズ ページを表示し、東京 23 区の各区がマップ シリーズに設定されていることを確認する。
 
-![alt text](image-7.png)
+![alt text](./img/image-7.png)
 
 2. 下記のコードを Python ウィンドウに入力し、Enter キーを 2 回押下して実行します。
 
@@ -201,7 +201,7 @@ ms.exportToPDF(r"C:\data\output\mapseries.pdf")
 
 **完成例**
 
-![alt text](image-8.png)
+![alt text](./img/image-8.png)
 
 このようにして、事前に作成した範囲についてまとめてマップを出力することができます。
 
