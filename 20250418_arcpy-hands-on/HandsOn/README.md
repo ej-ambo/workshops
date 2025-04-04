@@ -10,7 +10,7 @@
 
 3. [解析] タブ ＞ [Python] ＞ [Python ウィンドウ] をクリックします。ArcGIS Pro の画面下方に Python ウィンドウが表示されます。この後の演習ではこの Python ウィンドウにコードを入力していきます。
 
-![alt text](image01.png)
+![alt text](./img/image01.png)
 
 ## 演習 1 : ジオプロセシング ツールの実行
 
