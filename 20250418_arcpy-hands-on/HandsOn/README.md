@@ -137,13 +137,13 @@ ArcPy のサンプル コードや Web ヘルプを見る時に ArcGIS Pro を�
 
 <table>
   <tr>
-    <th>果物</th> <th>味</th>
+    <td>果物</td> <td rowspan="3"	<img src="./img/シンボル画面.png" height="300" width="400" alt="サンプル画像" align="top" ></td>
   </tr>
   <tr>
-    <td>いちご</td> <td rowspan="2">甘い</td>
+    <td>いちご</td> 
   </tr>
   <tr>
-    <td>りんご</td> <!-- 🖐セルは書かない -->
+    <td>りんご</td>
   </tr>
 </table>
 
