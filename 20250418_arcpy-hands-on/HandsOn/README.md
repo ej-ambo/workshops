@@ -135,6 +135,11 @@ ArcPy のサンプル コードや Web ヘルプを見る時に ArcGIS Pro を�
 - classificationMethod：方法
 - colorRamp：配色
 
+|breakCount：クラス|<img src="https://github.com/ej-ambo/workshops/blob/main/20250418_arcpy-hands-on/HandsOn/img/%E3%82%B7%E3%83%B3%E3%83%9C%E3%83%AB%E7%94%BB%E9%9D%A2.png"|
+|classificationField：フィールド|^      |
+|classificationMethod：方法|^      |
+|colorRamp：配色|^      |
+
 
 ## 演習 4 : マップを PDF にエクスポート
 
