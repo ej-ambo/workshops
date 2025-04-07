@@ -163,7 +163,7 @@ layout.exportToPDF(r"C:\data\output\Sample.pdf")
 
 3. 出力先に Sample.pdf がエクスポートされたことを確認します。
 
-![alt text](./img/PDFにエクスポート.png)
+![alt text](./img/PDF出力例.png)
 
 
 ## オプション　マップ シリーズの利用
@@ -206,7 +206,7 @@ ms.exportToPDF(r"C:\data\output\mapseries.pdf")
 
 **完成例**
 
-![alt text](./img/image-8.png)
+![alt text](./img/mapSeries葛飾区例.png)
 
 このようにして、事前に作成した範囲についてまとめてマップを出力することができます。
 
