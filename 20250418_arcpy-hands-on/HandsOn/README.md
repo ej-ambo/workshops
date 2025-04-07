@@ -128,13 +128,6 @@ for lyr in lyrs:
 ##### 補足
 ArcPy のサンプル コードや Web ヘルプを見る時に ArcGIS Pro を参考にできる場合があります。演習 3 の「GraduatedColorsRenderer」の場合では、リファレンスの各プロパティがシンボル設定画面のある項目に対応しているという見方ができます。
 
-![alt text](./img/シンボル画面.png)
-
-- breakCount：クラス
-- classificationField：フィールド
-- classificationMethod：方法
-- colorRamp：配色
-
 <table>
   <tr>
     <td>breakCount：クラス</td> <td rowspan="4"	<p><img src="https://github.com/ej-ambo/workshops/blob/main/20250418_arcpy-hands-on/HandsOn/img/シンボル画面.png" height="390" width="420" alt="サンプル画像" align="top" ></p></td>
