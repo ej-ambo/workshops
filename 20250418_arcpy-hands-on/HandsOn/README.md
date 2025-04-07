@@ -137,7 +137,7 @@ ArcPy のサンプル コードや Web ヘルプを見る時に ArcGIS Pro を�
 
 <table>
   <tr>
-    <td>果物</td> <td rowspan="3"	<img src="./img/シンボル画面.png" height="300" width="400" alt="サンプル画像" align="top" ></td>
+    <td>果物</td> <td rowspan="3"	<img src="./img/レイアウト画面.png" ></td>
   </tr>
   <tr>
     <td>いちご</td> 
