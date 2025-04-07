@@ -137,13 +137,16 @@ ArcPy のサンプル コードや Web ヘルプを見る時に ArcGIS Pro を�
 
 <table>
   <tr>
-    <td>果物</td> <td rowspan="3"	<img src="./img/レイアウト画面.png" ></td>
+    <td>breakCount：クラス</td> <td rowspan="4"	<p><img src="https://github.com/ej-ambo/workshops/blob/main/20250418_arcpy-hands-on/HandsOn/img/image-1.png" height="300" width="400" alt="サンプル画像" align="top" >サンプルテキストサンプルテキスト</p></td>
   </tr>
   <tr>
-    <td>いちご</td> 
+    <td>classificationField：フィールド</td> 
   </tr>
   <tr>
-    <td>りんご</td>
+    <td>classificationMethod：方法</td>
+  </tr>
+  <tr>
+    <td>colorRamp：配色：方法</td>
   </tr>
 </table>
 
