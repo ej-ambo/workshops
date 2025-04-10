@@ -139,7 +139,7 @@ ArcPy のサンプル コードや Web ヘルプを見る時に ArcGIS Pro を�
     <td>classificationMethod：方法</td>
   </tr>
   <tr>
-    <td>colorRamp：配色：方法</td>
+    <td>colorRamp：配色</td>
   </tr>
 </table>
 
