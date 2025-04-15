@@ -60,7 +60,7 @@ CSV から緯度経度を参照し、「放置車両」という名前で、ポ�
 
 演習 1 で作成したポイント データを編集します。
 
-1. コンテンツ ウィンドウで 放置車両 フィーチャレイヤーを右クリック → 属性テーブルをクリックします。
+1. コンテンツ ウィンドウで 放置車両 フィーチャ レイヤーを右クリック → 属性テーブルをクリックします。
 
     属性テーブルが開き、各駅名と各駅ごとの放置車両台数 (bicycle, scooters, motorcycle) が含まれていることが確認できます。
 
@@ -83,7 +83,7 @@ with arcpy.da.UpdateCursor("放置車両", fields) as cursor:
 ```
 
 上記のコードでは、演習 1 で作成した放置車両のフィーチャクラスに、[フィールドの追加](https://pro.arcgis.com/ja/pro-app/latest/tool-reference/data-management/add-field.htm) ツールで、放置車両台数の合計値を格納するフィールド (total) を作成しています。
-この total は、bicycle、scooters、motorcycle の三項目の合計値となります。
+この total は、bicycle、scooters、motorcycle の 3 項目の合計値となります。
 
 [UpdateCursor クラス](https://pro.arcgis.com/ja/pro-app/latest/arcpy/data-access/updatecursor-class.htm) を使用して、フィーチャクラスの各行 (1 つ 1 つのフィーチャ) に対して合計値を適用する繰り返し処理を行っています。
 
